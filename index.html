@@ -38,8 +38,8 @@
 		
 
 			<ul>
-				<li v-for="email in emails">
-					{{email}} 						
+				<li v-for="(email,index) in emails">
+					{{index + 1}}-{{email}} 						
 				</li>
 			</ul>
 
